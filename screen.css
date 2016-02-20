@@ -70,3 +70,22 @@ img {
   padding-bottom: 1.25em; /* 22.5px / 18px */
 }
 
+@media screen and (min-width: 33.333333333333336em) /* don't know how Stolley got this figure */ {
+  figure {
+    position: relative;
+  }
+  img {
+    margin-left: 44.44444444444%
+    width: 55.55555555555%
+  }
+  figcaption {
+    position: absolute;
+    width: 44.44444444444%
+    top: 0
+    left: 0
+  }
+}
+
+
+
+

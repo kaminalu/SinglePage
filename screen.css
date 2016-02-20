@@ -58,6 +58,7 @@ body {
   color: #616161; /* www.hexcolortool.com */
   font-size: 1.125em; /* 18px/16px = 1.125 */
   line-height: 1.25em; /* 22.5px / 18px */
+  padding-top: 1.25em; /* 22.5px / 18px */
   padding-bottom: 1.25em; /* 22.5px / 18px */
   padding-left: 1.125em; /* 4:5 ratio on baseline */
   padding-right: 0.5625em; /* half the 4:5 ratio */
@@ -75,14 +76,14 @@ img {
     position: relative;
   }
   img {
-    margin-left: 44.44444444444%
-    width: 55.55555555555%
+    margin-left: 44.44444444444%;
+    width: 55.55555555555%;
   }
   figcaption {
     position: absolute;
-    width: 44.44444444444%
-    top: 0
-    left: 0
+    width: 44.44444444444%;
+    top: 0;
+    left: 0;
   }
 }
 

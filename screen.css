@@ -54,9 +54,9 @@ table {
 */
 
 body {
-  font-family: serif;
-  color: #616161; /* www.hexcolortool.com */
-  font-size: 1.125em; /* 18px/16px = 1.125 */
+  font-family: sans-serif;
+  color: black;
+  font-size: 1em; /* 18px/18px = 1 */
   line-height: 1.25em; /* 22.5px / 18px */
   padding-top: 1.25em; /* 22.5px / 18px */
   padding-bottom: 1.25em; /* 22.5px / 18px */
@@ -76,6 +76,8 @@ h1 {
 }
 
 p {
+  font-family: serif;
+  color: #616161; /* www.hexcolortool.com */
   font-size: 1.125em; /* 18px/16px = 1.125 */
   line-height: 1.25em; /* 22.5px / 18px */
   padding-left: 1.25em; /* 4:5 ratio on baseline */
@@ -102,8 +104,25 @@ img {
     width: 44.44444444444%;
     right: 0;
     font-family: sans-serif;
-    font-size: 0.8em; /* 18px/14.4px = 1 */
-    color: black
+    font-size: 0.8em; /* 18px/14.4px = 0.8 */
+    color: black;
+  }
+  
+  /* Flexbox-enabled styles below */
+
+  .flexbox body {
+    position: static;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .flexbox figure {
+    order: 3;
+  }
+  .flexbox p {
+    order: 2;
+  }
+  .flexbox h1 {
+    order: 1;
   }
 }
 

@@ -65,6 +65,24 @@ body {
   text-size-adjust: 100%;
 }
 
+h1 {
+  font-size: 1.953111111111111em; /* 35.156 / 18px */
+  line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
+  padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-bottom: 1.2800091022869495em; /* 22.5px * 2 / 35.156 */
+  color: #ff0a68; /* www.hexcolortool.com */
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.125em; /* 18px/16px = 1.125 */
+  line-height: 1.25em; /* 22.5px / 18px */
+  padding-left: 1.25em; /* 4:5 ratio on baseline */
+  padding-right: 0.5625em; /* half the 4:5 ratio */
+  padding-bottom: 1.25em; /* 22.5px / 18px */
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -76,14 +94,17 @@ img {
     position: relative;
   }
   img {
-    margin-left: 44.44444444444%;
-    width: 55.55555555555%;
+    margin-left: 55.55555555555%;
+    width: 44.44444444444%;
   }
   figcaption {
     position: absolute;
-    width: 44.44444444444%;
+    width: 55.55555555555%;
     top: 0;
     left: 0;
+    font-family: sans-serif;
+    font-size: 0.8em; /* 18px/14.4px = 1 */
+    color: black
   }
 }
 

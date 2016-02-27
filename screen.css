@@ -96,13 +96,12 @@ img {
     position: relative;
   }
   img {
-    margin-left: 55.55555555555%;
-    width: 44.44444444444%;
+    width: 100%;
   }
   figcaption {
     position: absolute;
-    width: 44.44444444444%;
-    right: 0;
+    width: 100%;
+    left: 0;
     font-family: sans-serif;
     font-size: 0.8em; /* 18px/14.4px = 0.8 */
     color: black;
@@ -113,16 +112,14 @@ img {
   .flexbox body {
     position: static;
     display: flex;
-    flex-flow: column wrap;
+  }
+  .flexbox section {
+    flex-grow: 3;
+    order: 1;
   }
   .flexbox figure {
-    order: 3;
-  }
-  .flexbox p {
+    flex-shrink: 2;
     order: 2;
-  }
-  .flexbox h1 {
-    order: 1;
   }
 }
 

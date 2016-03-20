@@ -56,12 +56,13 @@ table {
 body {
   font-family: sans-serif;
   color: black;
+  background-color: #f6f6f6;
   font-size: 1em; /* 18px/18px = 1 */
   line-height: 1.25em; /* 22.5px / 18px */
   padding-top: 1.25em; /* 22.5px / 18px */
   padding-bottom: 1.25em; /* 22.5px / 18px */
   padding-left: 1.125em; /* 4:5 ratio on baseline */
-  padding-right: 0.5625em; /* half the 4:5 ratio */
+  padding-right: 1.125em; /* 4:5 ratio on baseline */
   text-size-adjust: 100%;
 }
 
@@ -69,10 +70,12 @@ h1 {
   font-size: 1.953111111111111em; /* 35.156 / 18px */
   line-height: 1.2800091022869495; /* 22.5px * 2 / 35.156 */
   padding-top: 0.6400045511434748em; /* 22.5px / 35.156 */
-  padding-bottom: 1.2800091022869495em; /* 22.5px * 2 / 35.156 */
-  color: #ff0a68; /* www.hexcolortool.com */
+  padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
+  padding-left: 0.6400045511434748em; /* 22.5px / 35.156 */
+  color: #f6f6f6; /* www.hexcolortool.com */
   font-family: sans-serif;
   font-weight: bold;
+  background-color: #ff0a68;
 }
 
 p {
@@ -80,6 +83,7 @@ p {
   color: #616161; /* www.hexcolortool.com */
   font-size: 1.125em; /* 18px/16px = 1.125 */
   line-height: 1.25em; /* 22.5px / 18px */
+  padding-top: 1.25em; /* 22.5px / 18px */
   padding-left: 1.25em; /* 4:5 ratio on baseline */
   padding-right: 0.5625em; /* half the 4:5 ratio */
   padding-bottom: 1.25em; /* 22.5px / 18px */
@@ -88,7 +92,7 @@ p {
 img {
   display: block;
   max-width: 100%;
-  padding-bottom: 0.5625em; /* half the 4:5 ratio */
+  border: 0.28125em solid #ff0a68;
 }
 
 @media screen and (min-width: 33.333333333333336em) /* don't know how Stolley got this figure */ {
@@ -113,7 +117,7 @@ img {
     position: static;
     display: flex;
   }
-  .flexbox section {
+  .flexbox div {
     flex-grow: 3;
     order: 1;
   }

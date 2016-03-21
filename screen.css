@@ -74,22 +74,27 @@ h1.drop { /* Pointless example of using class. Would be more useful with multipl
   padding-bottom: 0.6400045511434748em; /* 22.5px / 35.156 */
   padding-left: 0.6400045511434748em; /* 22.5px / 35.156 */
   color: #f6f6f6; /* www.hexcolortool.com */
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: bold;
   background-color: #ff0a68;
-	text-shadow: -5px 3px 0 #0a0e27;
+	text-shadow:	0 1px #7e8b91,
+		-1px 0 #c7cdd1,
+		-1px 2px #7e8b91,
+		-2px 1px #c7cdd1,
+		-2px 3px #7e8b91,
+		-3px 2px #333,
+		-3px 4px #333;
 	}
 
 p {
-  font-family: Georgia, serif;
-  color: #616161; /* www.hexcolortool.com */
-  font-size: 1.125em; /* 18px/16px = 1.125 */
+  font-family: 'La Belle Aurore', cursive;
+  color: #333; /* www.hexcolortool.com */
+  font-size: 1.25em; /* 22.5px / 18px */
   line-height: 1.25em; /* 22.5px / 18px */
   padding-top: 1.25em; /* 22.5px / 18px */
   padding-left: 1.25em; /* 4:5 ratio on baseline */
   padding-right: 0.5625em; /* half the 4:5 ratio */
   padding-bottom: 1.25em; /* 22.5px / 18px */
-  text-shadow: -1px 1px 0 #f6f6f6;
 }
 
 img {
@@ -109,9 +114,9 @@ img {
     position: absolute;
     width: 100%;
     left: 0;
-    font-family: sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     font-size: 0.8em; /* 18px/14.4px = 0.8 */
-    color: 333;
+    color: #333;
   }
   
   /* Flexbox-enablehttps://developer.mozilla.org/en-US/docs/Web/CSS/background-imaged styles below */
